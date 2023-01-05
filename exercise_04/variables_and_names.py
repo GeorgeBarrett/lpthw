@@ -1,16 +1,15 @@
-my_name = 'George'
-my_favourite_band = 'Tool'
-my_age = 35 # how?
-my_height = round(6.3) # feet
-my_shoe_size = 8
-do_I_like_chocolate = True
-my_favourite_producer = 'Aphex Twin'
-my_favourite_sport = 'climbing'
+cars = 100
+space_in_a_car = 4.0
+drivers = 30
+passengers = 90
+cars_not_driven = cars - drivers
+cars_driven = drivers
+carpool_capacity = cars_driven * space_in_a_car
+average_passengers_per_car = passengers / cars_driven
 
-print(f'My name is {my_name}')
-print(f'My favourite band are {my_favourite_band} and my favourite producer is {my_favourite_producer}')
-print(f'In my spare time I like {my_favourite_sport}')
-
-total = my_age + my_shoe_size - my_height
-
-print(f'If I want to make a random number I can add {my_age} and {my_shoe_size} and then minus {my_height}, which will equal {total}')
+print('There are', cars, 'cars available.')
+print('There are only', drivers, 'drivers available.')
+print('There will be', cars_not_driven, 'empty cars today.')
+print('We can transport', carpool_capacity, 'people today.')
+print('We have', passengers, 'to carpool today.')
+print('We need to put about', average_passengers_per_car, 'in each car.')
