@@ -7,4 +7,5 @@ height = input()
 print('What colour are your eyes?', end=' ')
 colour = input()
 
-print('So, you are', age, 'years old,', height, 'tall and have', colour, 'eyes.')
+print(f'So, you are {age} years old, {height} tall and have {colour} eyes.')
+
